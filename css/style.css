@@ -89,8 +89,14 @@ section .justify-content-md-center p{
 .box-service{
     padding: 10px 0;
 }
+.box-service div:hover{
+    background-color: #fff;
+    cursor:pointer;
+    box-shadow: 2px 2px 12px;
+}
 .box-service div{
-    background-color: var(--second-site);
+    transition: all .3s;
+    background-color: #88c0d0;
     text-align: center;
     width: 60px;
     height: 60px;
@@ -101,7 +107,7 @@ section .justify-content-md-center p{
 }
 .box-service div i{
     position: absolute;
-    color:#FFF;
+    color: var(--second-site);
     transform: translate(-50%, -50%);
     font-size: 28px;
 }
@@ -110,7 +116,7 @@ section .justify-content-md-center p{
     color:#FFF!important;
 }
 #servicos{
-    background-image: url(../images/bg-servicos-2.jpg);
+    background-image: url(../images/bg-servico-itens.jpg);
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;

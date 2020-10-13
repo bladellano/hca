@@ -400,16 +400,23 @@ textarea::placeholder {
 /*===================*/
 
 @media (max-width:768px) {
+    .list-fast-service li .box-service p{
+        height: 96px;
+        font-size: 13px;
+    }
+    .list-fast-service li .box-service{
+        padding-top:10px;
+    }
+    .list-fast-service li{
+        height: auto;
+    }
     #navbar_top{
         height: auto!important;
         opacity: 0.9;
     }
     .list-fast-service li .box-service h3 {
         font-size: 14px;
-    }
-    .list-fast-service li .box-service p {
-        height: 156px;
-    }
+    }  
     .btn:not(:disabled):not(.disabled) {
         font-size: 12px;
     }

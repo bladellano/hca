@@ -204,12 +204,12 @@
 
 				<div class="col-md-6">
 					<div class="row">
-						<div class="col-md-6"><img class="img-fluid mb-2" src="images/futuras1.jpeg" alt="IMAGE"></div>
-						<div class="col-md-6"><img class="img-fluid mb-2" src="images/futuras2.jpeg" alt="IMAGE"></div>
-						<div class="col-md-6"><img class="img-fluid mb-2" src="images/futuras3.jpeg" alt="IMAGE"></div>
-						<div class="col-md-6"><img class="img-fluid mb-2" src="images/futuras4.jpeg" alt="IMAGE"></div>
-						<div class="col-md-6"><img class="img-fluid mb-2" src="images/futuras5.jpeg" alt="IMAGE"></div>
-						<div class="col-md-6"><img class="img-fluid mb-2" src="images/futuras6.jpeg" alt="IMAGE"></div>
+						<div class="col-md-6 col-6"><img class="img-fluid mb-2" src="images/futuras1.jpeg" alt="IMAGE"></div>
+						<div class="col-md-6 col-6"><img class="img-fluid mb-2" src="images/futuras2.jpeg" alt="IMAGE"></div>
+						<div class="col-md-6 col-6"><img class="img-fluid mb-2" src="images/futuras3.jpeg" alt="IMAGE"></div>
+						<div class="col-md-6 col-6"><img class="img-fluid mb-2" src="images/futuras4.jpeg" alt="IMAGE"></div>
+						<div class="col-md-6 col-6"><img class="img-fluid mb-2" src="images/futuras5.jpeg" alt="IMAGE"></div>
+						<div class="col-md-6 col-6"><img class="img-fluid mb-2" src="images/futuras6.jpeg" alt="IMAGE"></div>
 					</div>
 				</div>
 				<div class="col-md-6">
@@ -539,9 +539,9 @@
 			</div>
 		</div>
 	</section>
- -->
+-->
 
-	<!-- MATERNIDADE -->
+<!-- MATERNIDADE -->
 <!-- 	<section id="maternidade">
 		<div class="container">
 			<div class="row">
@@ -587,8 +587,9 @@
 				</div>
 			</div>
 			<div class="row justify-content-md-center">
-				<p class="text-center">Atendemos os seguintes planos de saúde:</p>
-				
+				<div class="col-md-12">					
+					<p class="text-center">Atendemos os seguintes planos de saúde:</p>
+				</div>				
 			</div>
 			<div class="row justify-content-md-center">
 				<div class="col-md-8 text-center">

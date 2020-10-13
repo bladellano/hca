@@ -19,12 +19,12 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-2">
-						<img src="images/logo-hca.png" style="width: 168px" alt="LOGO HCA">
+						<img src="images/logo-hca.png" style="width: 188px" alt="LOGO HCA">
 					</div>
 					<div class="col-md-8 text-center">
 
 						<ul class="list-box-icons">
-							<li>
+						<!-- 	<li>
 								<div class="box-icons-top">
 									<div class="icon">
 										<i class="far fa-clock"></i>
@@ -33,14 +33,14 @@
 										<p>PRONTO ATENDIMENTO ADULTO 24 HORAS</p>
 									</div>
 								</div>
-							</li>
+							</li> -->
 							<li>
 								<div class="box-icons-top">
 									<div class="icon">
 										<i class="fas fa-mobile-alt"></i>
 									</div>
 									<div class="text">
-										<p>(41) 3259-6500</p>
+										<p>(91) 3255-9001</p>
 										<p>contato@hca.com.br</p>
 									</div>
 								</div>
@@ -78,23 +78,26 @@
 				</button>
 				<div class="collapse navbar-collapse" id="main_nav">	
 					<ul class="navbar-nav ml-auto">
-						<li class="nav-item active"><a class="nav-link scroll" href="#header-top">Home</a></li>
+						<li class="nav-item active"><a class="nav-link scroll" href="#header-top">Inicial</a></li>
 
 						<li class="nav-item dropdown">
 							<!-- <a class="nav-link scroll" href="#institucional">Institucional</a> -->
-							<a class="nav-link dropdown-toggle" href="#" id="nd-inst" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Institucional</a>
+							<a class="nav-link dropdown-toggle" href="#" id="nd-inst" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">HCA</a>
 							<div class="dropdown-menu" aria-labelledby="nd-inst">
 								<a class="dropdown-item" href="#sobre-nos">Sobre</a>
+								<a class="dropdown-item" href="#futuras-instalacoes">Futuras Instalações</a>
 								<a class="dropdown-item" href="#">Administração</a>
 								<a class="dropdown-item" href="#">História</a>
 								<a class="dropdown-item" href="#">Editais</a>
 							</div>
 						</li>
 						<li class="nav-item"><a class="nav-link scroll" href="#especialidades">Especialidades</a></li>
-						<li class="nav-item"><a class="nav-link scroll" href="#corpo-clinico">Corpo Clínico</a></li>
-						<li class="nav-item"><a class="nav-link scroll" href="#maternidade">Maternidade</a></li>
-						<li class="nav-item"><a class="nav-link scroll" href="#mulher">Mulher</a></li>
+						<!-- <li class="nav-item"><a class="nav-link scroll" href="#corpo-clinico">Corpo Clínico</a></li> -->
+						<!-- <li class="nav-item"><a class="nav-link scroll" href="#maternidade">Maternidade</a></li> -->
+						<!-- <li class="nav-item"><a class="nav-link scroll" href="#mulher">Mulher</a></li> -->
 						<li class="nav-item"><a class="nav-link scroll" href="#convenios">Convênios</a></li>
+						<li class="nav-item"><a class="nav-link " href="#exames">Exames</a></li>
+						<li class="nav-item"><a class="nav-link " href="#agendamento">Agendamento</a></li>
 						<li class="nav-item"><a class="nav-link scroll" href="#contato">Contato</a></li>
 					</ul>
 				</div> <!-- navbar-collapse.// -->
@@ -110,14 +113,14 @@
 		</ol>
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-				<img class="d-block w-100" src="images/bg-sliders-3.jpg" alt="First slide">
+				<img class="d-block w-100" src="images/banner-carousel1.jpg" alt="First slide">
 			</div>
 			<div class="carousel-item">
-				<img class="d-block w-100" src="images/bg-sliders-2.jpg" alt="Second slide">
+				<img class="d-block w-100" src="images/banner-carousel2.jpg" alt="Second slide">
 			</div>
-			<div class="carousel-item">
+		<!-- 	<div class="carousel-item">
 				<img class="d-block w-100" src="images/bg-sliders-1.jpg" alt="Third slide">
-			</div>
+			</div> -->
 		</div>
 		<a class="carousel-control-prev" href="#indicators" role="button" data-slide="prev">
 			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -187,22 +190,34 @@
 		</div>
 	</section>
 	<!-- VIDEO-INSTITUCIONAL -->
-	<section id="video-institucional">
+	<section id="futuras-instalacoes">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
 					<div class="section-title">
-						<h2>VIDEO INSTITUCIONAL</h2>
+						<h2>FUTURAS INSTALAÇÕES</h2>
 						<hr>
 					</div>
 				</div>
 			</div>
 			<div class="row justify-content-md-center">
 
-				<div class="col col-lg-8 text-center">
-					<h3>Excelência médica hospitalar e eficiência no atendimento ao paciente</h3>
-					<iframe width="100%" height="315" src="https://www.youtube.com/embed/PRSPQZZj6t0?start=660" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<div class="col-md-6">
+					<div class="row">
+						<div class="col-md-6"><img class="img-fluid mb-2" src="images/futuras1.jpeg" alt="IMAGE"></div>
+						<div class="col-md-6"><img class="img-fluid mb-2" src="images/futuras2.jpeg" alt="IMAGE"></div>
+						<div class="col-md-6"><img class="img-fluid mb-2" src="images/futuras3.jpeg" alt="IMAGE"></div>
+						<div class="col-md-6"><img class="img-fluid mb-2" src="images/futuras4.jpeg" alt="IMAGE"></div>
+						<div class="col-md-6"><img class="img-fluid mb-2" src="images/futuras5.jpeg" alt="IMAGE"></div>
+						<div class="col-md-6"><img class="img-fluid mb-2" src="images/futuras6.jpeg" alt="IMAGE"></div>
+					</div>
 				</div>
+				<div class="col-md-6">
+					<p>Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Delectus, vel sequi quae maiores quaerat? Veritatis corporis tempora sint, ipsam labore accusamus, reprehenderit ducimus, quam incidunt ullam cupiditate voluptas ex perspiciatis! Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Delectus, vel sequi quae maiores quaerat? Veritatis corporis tempora sint, ipsam labore accusamus, reprehenderit ducimus, quam incidunt ullam cupiditate voluptas ex perspiciatis!</p>
+					<p>Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Delectus, vel sequi quae maiores quaerat? Veritatis corporis tempora sint, ipsam labore accusamus, reprehenderit ducimus, quam incidunt ullam cupiditate voluptas ex perspiciatis! Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Delectus, vel sequi quae maiores quaerat? Veritatis corporis tempora sint, ipsam labore accusamus, reprehenderit ducimus, quam incidunt ullam cupiditate voluptas ex perspiciatis!</p>
+				</div>
+
+
 			</div>
 		</div>
 	</section>
@@ -211,7 +226,7 @@
 	<!-- SERVIÇOS -->
 	<section id="servicos">
 		<div class="container">
-				<div class="row">
+			<div class="row">
 				<div class="col-md-12">
 					<div class="section-title">
 						<h2>SERVIÇOS</h2>
@@ -222,6 +237,75 @@
 			<div class="row justify-content-md-center">
 				<div class="col col-md-10">
 					<ul class="list-services">
+
+						<li>
+							<div class="box-service">
+								<div>
+									<i class="far fa-file-alt"></i>
+								</div>
+								<p>Cirurgia Laparoscópica</p>
+							</div>
+						</li>
+
+						<li>
+							<div class="box-service">
+								<div>
+									<i class="far fa-file-alt"></i>
+								</div>
+								<p>Endoscopia</p>
+							</div>
+						</li>
+
+						<li>
+							<div class="box-service">
+								<div>
+									<i class="far fa-file-alt"></i>
+								</div>
+								<p>Exames Cardiológicos</p>
+							</div>
+						</li>
+						<li>
+							<div class="box-service">
+								<div>
+									<i class="far fa-file-alt"></i>
+								</div>
+								<p>Fisioterapia</p>
+							</div>
+						</li>
+
+						<li>
+							<div class="box-service">
+								<div>
+									<i class="far fa-file-alt"></i>
+								</div>
+								<p>Laboratório de Análises Clínicas</p>
+							</div>
+						</li>
+						<li>
+							<div class="box-service">
+								<div>
+									<i class="far fa-file-alt"></i>
+								</div>
+								<p>Raio X</p>
+							</div>
+						</li>
+
+						<li>
+							<div class="box-service">
+								<div>
+									<i class="far fa-file-alt"></i>
+								</div>
+								<p>Tomografia Computadorizada</p>
+							</div>
+						</li>
+						<li>
+							<div class="box-service">
+								<div>
+									<i class="far fa-file-alt"></i>
+								</div>
+								<p>Ultrassonografia</p>
+							</div>
+						</li>
 						<li>
 							<div class="box-service">
 								<div>
@@ -229,25 +313,7 @@
 								</div>
 								<p>Solicitação de prontuários</p>
 							</div>
-						</li>
-
-						<li>
-							<div class="box-service">
-								<div>
-									<i class="fas fa-info"></i>
-								</div>
-								<p>Informações Gerais</p>
-							</div>
-						</li>
-
-						<li>
-							<div class="box-service">
-								<div>
-									<i class="fas fa-female"></i>
-								</div>
-								<p>Maternidade</p>
-							</div>
-						</li>
+						</li>				
 
 						<li>
 							<div class="box-service">
@@ -257,14 +323,7 @@
 								<p>Convênios Credenciados</p>
 							</div>
 						</li>
-						<li>
-							<div class="box-service">
-								<div>
-									<i class="far fa-file-alt"></i>
-								</div>
-								<p>Dicas para Visitantes</p>
-							</div>
-						</li>
+
 						<li>
 							<div class="box-service">
 								<div>	
@@ -276,29 +335,16 @@
 						<li>
 							<div class="box-service">
 								<div>
-									<i class="far fa-file-alt"></i>
+									<i class="fas fa-info"></i>
 								</div>
-								<p>Horários de Visita</p>
-							</div>
-						</li>
-						<li>
-							<div class="box-service">
-								<div>
-									<i class="far fa-file-alt"></i>
-								</div>
-								<p>Estrutura</p>
+								<p>Informações Gerais</p>
 							</div>
 						</li>
 
 					</ul>
 				</div>	
 
-
 			</div>
-			
-
-
-
 
 		</div> <!-- ./container -->
 	</section>
@@ -404,21 +450,81 @@
 	<section id="especialidades">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col-md-12 text-center">
 					<div class="section-title">
 						<h2>ESPECIALIDADES</h2>
 						<hr>
 					</div>
+					<h3>Conheças as especialidades que temos para você</h3>
+					<p>O Hospital de Clínicas de Ananindeua conta com uma ampla variedade de especialistas.
+					</p>
 				</div>
 			</div>
 			<div class="row justify-content-md-center">
-				<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae aliquid blanditiis at, illum corporis reiciendis ipsum magnam, voluptates totam tenetur non, deserunt ad, incidunt quidem culpa accusantium doloremque vel? Possimus!</p>
+				<ul class="list-itens-especialidades">
+					<li> 
+						<img src="images/heart-rate.png" alt="ICON"> 
+						<p>Angiologia Coronária</p>
+					</li>
+					<li> 
+						<img src="images/stethoscope.png" alt="ICON"> 
+						<p>Clínica Geral</p>
+					</li>
+					<li> 
+						<img src="images/doctor.png" alt="ICON"> 
+						<p>Cirurgia Geral e Oncológica</p>
+					</li>
+					<li> 
+						<img src="images/microscope.png" alt="ICON"> 
+						<p>Endocrinologia</p>
+					</li>
+					<li> 
+						<img src="images/urinary-tract.png" alt="ICON"> 
+						<p>Gastroenterologia</p>
+					</li>
+					<li> 
+						<img src="images/sperm.png" alt="ICON"> 
+						<p>Ginecologia</p>
+					</li>
+					<li> 
+						<img src="images/pharmacist.png" alt="ICON"> 
+						<p>Urologia</p>
+					</li>
+
+					<!--  -->
+					<li> 
+						<img src="images/blood-type.png" alt="ICON"> 
+						<p>Cateterismo Cardiológico</p>
+					</li>
+					<!--  -->
+					<li> 
+						<img src="images/anatomy.png" alt="ICON"> 
+						<p>Arteriografia Membros Inferiores</p>
+					</li>
+					<li> 
+						<img src="images/heart-attack.png" alt="ICON"> 
+						<p>Angioplastia Periférica</p>
+					</li>
+					<li> 
+						<img src="images/brain.png" alt="ICON"> 
+						<p>Neurocirurgia (Tratamento p/ Dor)</p>
+					</li>
+					<li> 
+						<img src="images/throat.png" alt="ICON"> 
+						<p>Buco Maxilo</p>
+					</li>
+					<li> 
+						<img src="images/x-ray.png" alt="ICON"> 
+						<p>Hemodinâmica</p>
+					</li>
+
+				</ul>
 			</div>
 		</div>
 	</section>
 
 	<!-- CORPO CLINICO -->
-	<section id="corpo-clinico">
+<!-- 	<section id="corpo-clinico">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -433,10 +539,10 @@
 			</div>
 		</div>
 	</section>
-
+ -->
 
 	<!-- MATERNIDADE -->
-	<section id="maternidade">
+<!-- 	<section id="maternidade">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -450,10 +556,10 @@
 				<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae aliquid blanditiis at, illum corporis reiciendis ipsum magnam, voluptates totam tenetur non, deserunt ad, incidunt quidem culpa accusantium doloremque vel? Possimus!</p>
 			</div>
 		</div>
-	</section>
+	</section> -->
 
 	<!-- MULHER -->
-	<section id="mulher">
+<!-- 	<section id="mulher">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -467,7 +573,7 @@
 				<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae aliquid blanditiis at, illum corporis reiciendis ipsum magnam, voluptates totam tenetur non, deserunt ad, incidunt quidem culpa accusantium doloremque vel? Possimus!</p>
 			</div>
 		</div>
-	</section>
+	</section> -->
 
 	<!-- CONVENIOS -->
 	<section id="convenios">
@@ -475,13 +581,20 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="section-title">
-						<h2>CONVENIOS</h2>
+						<h2>CONVÊNIOS</h2>
 						<hr>
 					</div>
 				</div>
 			</div>
 			<div class="row justify-content-md-center">
-				<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae aliquid blanditiis at, illum corporis reiciendis ipsum magnam, voluptates totam tenetur non, deserunt ad, incidunt quidem culpa accusantium doloremque vel? Possimus!</p>
+				<p class="text-center">Atendemos os seguintes planos de saúde:</p>
+				
+			</div>
+			<div class="row justify-content-md-center">
+				<div class="col-md-8 text-center">
+					<img class="img-fluid img-convenio" src="images/logo-sus.png" alt="">
+					<img class="img-fluid img-convenio" src="images/logo-iasep.png" alt="">
+				</div>
 			</div>
 		</div>
 	</section>

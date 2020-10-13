@@ -46,9 +46,39 @@ section .justify-content-md-center p{
     width: 150px;
     margin: 0 auto;
 }
+/**/
+ul.list-itens-especialidades{
+list-style: none;
+display: flex;
+margin: 0;
+padding: 0;
+flex-wrap: wrap;
+width: 100%;
+}
+ul.list-itens-especialidades li{
+    flex: 0 1 182px;
+    border:1px solid #CCC;
+    margin:4px;
+    text-align: center;
+    padding: 0px 0;
+    background-color: #FFF;
+}
+ul.list-itens-especialidades li p{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+}
+ul.list-itens-especialidades li img{
+    margin-top: 40px;
+}
+
 /* CONVENIOS */
 #convenios{
     background-color: var(--primary-site);
+}
+#convenios .img-convenio{
+    height: 130px;
+    margin: 0 30px;
 }
 #convenios .section-title h2,
 #convenios .justify-content-md-center p,
@@ -66,23 +96,23 @@ section .justify-content-md-center p{
 }
 /* ESPECIALIDADES */
 #especialidades{
-    background-color: var(--primary-site);
+    background-color: #EEE;
 }
 #especialidades .section-title h2,
 #especialidades .justify-content-md-center p,
 #especialidades .justify-content-md-center h3{
-    color:#FFF;
+    /*color:#FFF;*/
 }
 /* VIDEO INSTITUCIONAL */
-#video-institucional{
+#futuras-instalacoes{
     background-color: var(--primary-site);
 }
-#video-institucional .section-title h2,
-#video-institucional .justify-content-md-center p,
-#video-institucional .justify-content-md-center h3{
+#futuras-instalacoes .section-title h2,
+#futuras-instalacoes .justify-content-md-center p,
+#futuras-instalacoes .justify-content-md-center h3{
     color:#FFF;
 }
-#video-institucional .justify-content-md-center h3{
+#futuras-instalcoes .justify-content-md-center h3{
     font-weight: 300;    
 }
 /*BOX SERVICES*/
@@ -223,11 +253,18 @@ section .justify-content-md-center p{
 /**/
 .navbar{
     background-color: var(--primary-site);
+    height: 86px;
+}
+.navbar .nav-item .nav-link{
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color:#FFF;
 }
 /**/
 .box-icons-top{
     display: flex;
-    width: 212px;    
+    width: 260px;    
 
 }
 .box-icons-top i{
@@ -242,11 +279,12 @@ section .justify-content-md-center p{
     margin-bottom: 0;
 }
 .box-icons-top p:nth-child(1){
-    font-size: 14px;
+    font-size: 18px;
+    font-weight: bold;
 }
 .box-icons-top p:nth-child(2){
     color:var(--second-site);
-    font-size: 12px;
+    font-size: 14px;
 }
 .box-icons-top .icon{
     width: 18%;
@@ -349,8 +387,8 @@ textarea
 }
 footer form input[type="text"]:focus,
 textarea:focus {
-   background: transparent; 
-   color:#FFF!important;
+ background: transparent; 
+ color:#FFF!important;
 }
 footer form input[type="text"]::placeholder, 
 textarea::placeholder {

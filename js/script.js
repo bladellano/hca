@@ -1,5 +1,21 @@
 $(function(){
 
+
+	$(function () {
+		$('[data-toggle="tooltip"]').tooltip()
+	})
+	/*carousel*/
+
+	$('.carousel').carousel({
+		interval: 2500
+	})
+
+	/* lightbox */
+	lightbox.option({
+		'resizeDuration': 200,
+		'wrapAround': true
+	})
+
 	/* Scrolling navegation site */
 	var scrollLink = $('.scroll');
 
@@ -16,8 +32,8 @@ $(function(){
 		scrollLink.each(function(){
 			var sectionOffset = $(this.hash).offset().top - 20;
 			if(sectionOffset <= scrollbarLocation){
-				$(this).parent().addClass('active');
-				$(this).parent().siblings().removeClass('active');
+				// $(this).parent().addClass('active');
+				// $(this).parent().siblings().removeClass('active');
 			}
 		});
 	});

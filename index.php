@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css ">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+	<link rel="stylesheet" href="css/lightbox.css">
 
 	<link rel="stylesheet" href="css/style.css">
 </head>
@@ -19,7 +20,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-2">
-						<img src="images/logo-hca.png" style="width: 188px" alt="LOGO HCA">
+						<a href="."><img src="images/logo-hca.png" style="width: 188px" alt="LOGO HCA"></a>
 					</div>
 					<div class="col-md-8 text-center">
 
@@ -41,7 +42,7 @@
 									</div>
 									<div class="text">
 										<p>(91) 3255-9001</p>
-										<p>contato@hca.com.br</p>
+										<p>contato@hcananindeua.com.br</p>
 									</div>
 								</div>
 							</li>
@@ -72,32 +73,31 @@
 		</div>
 		<nav id="navbar_top" class="navbar navbar-expand-lg navbar-dark bg-primary_">
 			<div class="container">
-				<a class="navbar-brand" href="#"><img class="d-block d-md-none" src="images/logo-hca-pb.png" style="width: 100px" alt="LOGO HCA"></a>
+				<a class="navbar-brand" href="."><img class="d-block d-md-none" src="images/logo-hca-pb.png" style="width: 100px" alt="LOGO HCA"></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="main_nav">	
 					<ul class="navbar-nav ml-auto">
-						<li class="nav-item active"><a class="nav-link scroll" href="#header-top">Inicial</a></li>
+						<!-- <li class="nav-item active"><a class="nav-link scroll" href="#header-top">Inicial</a></li> -->
+						<li class="nav-item"><a class="nav-link scroll" href="#header-top">Inicial</a></li>
 
 						<li class="nav-item dropdown">
 							<!-- <a class="nav-link scroll" href="#institucional">Institucional</a> -->
 							<a class="nav-link dropdown-toggle" href="#" id="nd-inst" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">HCA</a>
 							<div class="dropdown-menu" aria-labelledby="nd-inst">
-								<a class="dropdown-item" href="#sobre-nos">Sobre</a>
-								<a class="dropdown-item" href="#futuras-instalacoes">Futuras Instalações</a>
-								<a class="dropdown-item" href="#">Administração</a>
-								<a class="dropdown-item" href="#">História</a>
-								<a class="dropdown-item" href="#">Editais</a>
+								<a class="dropdown-item scroll" href="#sobre-nos">Sobre</a>
+								<a class="dropdown-item scroll" href="#futuras-instalacoes">Futuras Instalações</a>
+								<!-- <a class="dropdown-item" href="#">Administração</a> -->
+								<!-- <a class="dropdown-item" href="#">História</a> -->
+								<!-- <a class="dropdown-item" href="#">Editais</a> -->
 							</div>
 						</li>
 						<li class="nav-item"><a class="nav-link scroll" href="#especialidades">Especialidades</a></li>
-						<!-- <li class="nav-item"><a class="nav-link scroll" href="#corpo-clinico">Corpo Clínico</a></li> -->
-						<!-- <li class="nav-item"><a class="nav-link scroll" href="#maternidade">Maternidade</a></li> -->
-						<!-- <li class="nav-item"><a class="nav-link scroll" href="#mulher">Mulher</a></li> -->
 						<li class="nav-item"><a class="nav-link scroll" href="#convenios">Convênios</a></li>
 						<li class="nav-item"><a class="nav-link " href="#exames">Exames</a></li>
 						<li class="nav-item"><a class="nav-link " href="#agendamento">Agendamento</a></li>
+						<li class="nav-item"><a class="nav-link scroll" href="#noticias">Notícias</a></li>
 						<li class="nav-item"><a class="nav-link scroll" href="#contato">Contato</a></li>
 					</ul>
 				</div> <!-- navbar-collapse.// -->
@@ -177,11 +177,12 @@
 			</div>
 			<div class="row justify-content-md-center">
 				<div class="col-12 col-lg-4">
-					<img src="images/sobre-nos_3.jpg" class="img-fluid" alt="SOBRE NOS">
+					<img src="images/medicos.png" class="img-fluid" alt="SOBRE NOS">
 				</div>
 				<div class="col-12 col-lg-4">
 					<p>A construção do Hospital de Caridade da Irmandade da Santa Casa de Misericórdia de Curitiba teve início em 1866, bem antes de sua inauguração. E, embora na época fosse considerado um grande hospital, tinha apenas 160 leitos.</p>
 					<p>Em 1880, o local foi aberto ao público oficialmente como o primeiro hospital da capital paranaense. Magistralmente, consagrado pelo então imperador Dom Pedro II. Nessa época, o Brasil também vivia o começo de muitas mudanças, como o fim da escravidão e a modernização das cidades.</p>
+
 					<div class="text-center">						
 						<button class="btn btn-primary btn-sm">Saiba mais</button>
 					</div>
@@ -204,12 +205,24 @@
 
 				<div class="col-md-6">
 					<div class="row">
-						<div class="col-md-6 col-6"><img class="img-fluid mb-2" src="images/futuras1.jpeg" alt="IMAGE"></div>
-						<div class="col-md-6 col-6"><img class="img-fluid mb-2" src="images/futuras2.jpeg" alt="IMAGE"></div>
-						<div class="col-md-6 col-6"><img class="img-fluid mb-2" src="images/futuras3.jpeg" alt="IMAGE"></div>
-						<div class="col-md-6 col-6"><img class="img-fluid mb-2" src="images/futuras4.jpeg" alt="IMAGE"></div>
-						<div class="col-md-6 col-6"><img class="img-fluid mb-2" src="images/futuras5.jpeg" alt="IMAGE"></div>
-						<div class="col-md-6 col-6"><img class="img-fluid mb-2" src="images/futuras6.jpeg" alt="IMAGE"></div>
+						<div class="col-md-6 col-6">
+							<a href="images/futuras1.jpeg" data-lightbox="image" data-title="Futuras instalações..."><img  class="img-fluid mb-2" src="images/futuras1.jpeg" alt="IMAGE"></a>
+						</div>
+						<div class="col-md-6 col-6">
+							<a href="images/futuras2.jpeg" data-lightbox="image" data-title="Futuras instalações..."><img  class="img-fluid mb-2" src="images/futuras2.jpeg" alt="IMAGE"></a>
+						</div>
+						<div class="col-md-6 col-6">
+							<a href="images/futuras3.jpeg" data-lightbox="image" data-title="Futuras instalações..."><img  class="img-fluid mb-2" src="images/futuras3.jpeg" alt="IMAGE"></a>
+						</div>
+						<div class="col-md-6 col-6">
+							<a href="images/futuras4.jpeg" data-lightbox="image" data-title="Futuras instalações..."><img  class="img-fluid mb-2" src="images/futuras4.jpeg" alt="IMAGE"></a>
+						</div>
+						<div class="col-md-6 col-6">
+							<a href="images/futuras5.jpeg" data-lightbox="image" data-title="Futuras instalações..."><img  class="img-fluid mb-2" src="images/futuras5.jpeg" alt="IMAGE"></a>
+						</div>
+						<div class="col-md-6 col-6">
+							<a href="images/futuras6.jpeg" data-lightbox="image" data-title="Futuras instalações..."><img  class="img-fluid mb-2" src="images/futuras6.jpeg" alt="IMAGE"></a>
+						</div>
 					</div>
 				</div>
 				<div class="col-md-6">
@@ -241,7 +254,7 @@
 						<li>
 							<div class="box-service">
 								<div>
-									<i class="far fa-file-alt"></i>
+									<i class="fas fa-user-md"></i>
 								</div>
 								<p>Cirurgia Laparoscópica</p>
 							</div>
@@ -250,7 +263,7 @@
 						<li>
 							<div class="box-service">
 								<div>
-									<i class="far fa-file-alt"></i>
+									<i class="fas fa-microscope"></i>
 								</div>
 								<p>Endoscopia</p>
 							</div>
@@ -259,7 +272,7 @@
 						<li>
 							<div class="box-service">
 								<div>
-									<i class="far fa-file-alt"></i>
+									<i class="fas fa-heartbeat"></i>
 								</div>
 								<p>Exames Cardiológicos</p>
 							</div>
@@ -267,7 +280,7 @@
 						<li>
 							<div class="box-service">
 								<div>
-									<i class="far fa-file-alt"></i>
+									<i class="fas fa-diagnoses"></i>
 								</div>
 								<p>Fisioterapia</p>
 							</div>
@@ -276,7 +289,7 @@
 						<li>
 							<div class="box-service">
 								<div>
-									<i class="far fa-file-alt"></i>
+									<i class="fas fa-bong"></i>
 								</div>
 								<p>Laboratório de Análises Clínicas</p>
 							</div>
@@ -284,7 +297,7 @@
 						<li>
 							<div class="box-service">
 								<div>
-									<i class="far fa-file-alt"></i>
+									<i class="fas fa-x-ray"></i>
 								</div>
 								<p>Raio X</p>
 							</div>
@@ -293,7 +306,7 @@
 						<li>
 							<div class="box-service">
 								<div>
-									<i class="far fa-file-alt"></i>
+									<i class="fas fa-head-side-virus"></i>
 								</div>
 								<p>Tomografia Computadorizada</p>
 							</div>
@@ -301,7 +314,7 @@
 						<li>
 							<div class="box-service">
 								<div>
-									<i class="far fa-file-alt"></i>
+									<i class="fas fa-weight"></i>
 								</div>
 								<p>Ultrassonografia</p>
 							</div>
@@ -327,7 +340,7 @@
 						<li>
 							<div class="box-service">
 								<div>	
-									<i class="far fa-file-alt"></i>
+									<i class="fas fa-procedures"></i>
 								</div>
 								<p>Internamento</p>
 							</div>
@@ -448,6 +461,7 @@
 
 	<!-- ESPECIALIDADES -->
 	<section id="especialidades">
+
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 text-center">
@@ -462,58 +476,58 @@
 			</div>
 			<div class="row justify-content-md-center">
 				<ul class="list-itens-especialidades">
-					<li> 
+					<li data-toggle="tooltip" data-html="true" title="<em>Atendimento</em> <b>Segunda - Sexta: 08:00 às 18:00</b>"> 
 						<img src="images/heart-rate.png" alt="ICON"> 
 						<p>Angiologia Coronária</p>
 					</li>
-					<li> 
+					<li data-toggle="tooltip" data-html="true" title="<em>Atendimento</em> <b>Segunda - Sexta: 08:00 às 18:00</b>"> 
 						<img src="images/stethoscope.png" alt="ICON"> 
 						<p>Clínica Geral</p>
 					</li>
-					<li> 
+					<li data-toggle="tooltip" data-html="true" title="<em>Atendimento</em> <b>Segunda - Sexta: 08:00 às 18:00</b>"> 
 						<img src="images/doctor.png" alt="ICON"> 
 						<p>Cirurgia Geral e Oncológica</p>
 					</li>
-					<li> 
+					<li data-toggle="tooltip" data-html="true" title="<em>Atendimento</em> <b>Segunda - Sexta: 08:00 às 18:00</b>"> 
 						<img src="images/microscope.png" alt="ICON"> 
 						<p>Endocrinologia</p>
 					</li>
-					<li> 
+					<li data-toggle="tooltip" data-html="true" title="<em>Atendimento</em> <b>Segunda - Sexta: 08:00 às 18:00</b>"> 
 						<img src="images/urinary-tract.png" alt="ICON"> 
 						<p>Gastroenterologia</p>
 					</li>
-					<li> 
+					<li data-toggle="tooltip" data-html="true" title="<em>Atendimento</em> <b>Segunda - Sexta: 08:00 às 18:00</b>"> 
 						<img src="images/sperm.png" alt="ICON"> 
 						<p>Ginecologia</p>
 					</li>
-					<li> 
+					<li data-toggle="tooltip" data-html="true" title="<em>Atendimento</em> <b>Segunda - Sexta: 08:00 às 18:00</b>"> 
 						<img src="images/pharmacist.png" alt="ICON"> 
 						<p>Urologia</p>
 					</li>
 
 					<!--  -->
-					<li> 
+					<li data-toggle="tooltip" data-html="true" title="<em>Atendimento</em> <b>Segunda - Sexta: 08:00 às 18:00</b>"> 
 						<img src="images/blood-type.png" alt="ICON"> 
 						<p>Cateterismo Cardiológico</p>
 					</li>
 					<!--  -->
-					<li> 
+					<li data-toggle="tooltip" data-html="true" title="<em>Atendimento</em> <b>Segunda - Sexta: 08:00 às 18:00</b>"> 
 						<img src="images/anatomy.png" alt="ICON"> 
 						<p>Arteriografia Membros Inferiores</p>
 					</li>
-					<li> 
+					<li data-toggle="tooltip" data-html="true" title="<em>Atendimento</em> <b>Segunda - Sexta: 08:00 às 18:00</b>"> 
 						<img src="images/heart-attack.png" alt="ICON"> 
 						<p>Angioplastia Periférica</p>
 					</li>
-					<li> 
+					<li data-toggle="tooltip" data-html="true" title="<em>Atendimento</em> <b>Segunda - Sexta: 08:00 às 18:00</b>"> 
 						<img src="images/brain.png" alt="ICON"> 
 						<p>Neurocirurgia (Tratamento p/ Dor)</p>
 					</li>
-					<li> 
+					<li data-toggle="tooltip" data-html="true" title="<em>Atendimento</em> <b>Segunda - Sexta: 08:00 às 18:00</b>"> 
 						<img src="images/throat.png" alt="ICON"> 
 						<p>Buco Maxilo</p>
 					</li>
-					<li> 
+					<li data-toggle="tooltip" data-html="true" title="<em>Atendimento</em> <b>Segunda - Sexta: 08:00 às 18:00</b>"> 
 						<img src="images/x-ray.png" alt="ICON"> 
 						<p>Hemodinâmica</p>
 					</li>
@@ -609,9 +623,8 @@
 					<img src="images/logo-hca-pb.png" alt="">
 					<h5>Contato</h5>
 					<address>						
-						<i class="fas fa-phone"></i> (91) 98839-2565<br/>
-						<i class="fas fa-phone"></i> (91) 98839-2565<br/>
-						<i class="fas fa-envelope"></i> contato@hca.com.br<br/>
+						<i class="fas fa-phone"></i> (91) 3255-9001<br/>
+						<i class="fas fa-envelope"></i> contato@hcananindeua.com.br<br/>
 						<i class="fas fa-map-marker-alt"></i> Rua Dois de Junho, 650.<br/>
 						Águas Brancas, Ananindeua/PA.
 					</address>
@@ -657,7 +670,7 @@
 						<p class="text-left">® Todos os direitos reservados a Hospital de Clínicas de Ananindeua.</p>
 					</div>
 					<div class="col-6">
-						<p class="text-right">Desenvolvido por Dellano Sites.</p>
+						<p class="text-right">Desenvolvido por <a href="https://www.dellanosites.com.br/" target="_blank">Dellano Sites.</a></p>
 					</div>
 				</div>
 			</div>
@@ -665,8 +678,10 @@
 	</footer>
 
 	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>	
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>	
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js "></script>
+	<script src="js/lightbox.js"></script>	
 	<script src="js/script.js"></script>	
 </body>
 </html>

@@ -20,7 +20,29 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
-/**/
+/*Color tooltip*/
+.tooltip-inner {
+  background-color: var(--second-site) !important;
+  /*!important is not necessary if you place custom.css at the end of your css calls. For the purpose of this demo, it seems to be required in SO snippet*/
+  color: #fff;
+}
+
+.tooltip.top .tooltip-arrow {
+  border-top-color: var(--second-site);
+}
+
+.tooltip.right .tooltip-arrow {
+  border-right-color: var(--second-site);
+}
+
+.tooltip.bottom .tooltip-arrow {
+  border-bottom-color: var(--second-site);
+}
+
+.tooltip.left .tooltip-arrow {
+  border-left-color: var(--second-site);
+}
+/*Section padrão*/
 section[id]{
     padding: 20px 0px;
 }
@@ -46,7 +68,7 @@ section .justify-content-md-center p{
     width: 150px;
     margin: 0 auto;
 }
-/**/
+/*Itens de especialidades*/
 ul.list-itens-especialidades{
 list-style: none;
 display: flex;
@@ -214,7 +236,7 @@ ul.list-itens-especialidades li img{
 .box-blog .content-post p {
     margin-bottom: 2px;
 }
-/**/
+/*List itens serviços rápidos*/
 .list-fast-service{
     display: flex;
     list-style: none; 

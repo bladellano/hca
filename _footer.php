@@ -48,10 +48,10 @@
 		<div class="container-fluid">
 			<div class="container">
 				<div class="row">
-					<div class="col-6">
+					<div class="col-12 col-md-6">
 						<p class="text-left">® Todos os direitos reservados a Hospital de Clínicas de Ananindeua.</p>
 					</div>
-					<div class="col-6">
+					<div class="col-12 col-md-6">
 						<p class="text-right">Desenvolvido por <a href="https://www.dellanosites.com.br/" target="_blank">Dellano Sites.</a></p>
 					</div>
 				</div>

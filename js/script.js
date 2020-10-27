@@ -1,16 +1,15 @@
 $(function(){
 
-
 	$(function () {
 		$('[data-toggle="tooltip"]').tooltip()
 	})
-	/*carousel*/
-
+	
+	/*Carousel*/
 	$('.carousel').carousel({
 		interval: 2500
 	})
 
-	/* lightbox */
+	/* Lightbox */
 	lightbox.option({
 		'resizeDuration': 200,
 		'wrapAround': true
@@ -27,6 +26,8 @@ $(function(){
 	});
 
 	/* Active link switching */
+
+	/*
 	$(window).scroll(function(){
 		var scrollbarLocation = $(this).scrollTop();
 		scrollLink.each(function(){
@@ -37,6 +38,7 @@ $(function(){
 			}
 		});
 	});
+	*/
 
 	/* Fixed top menu */
 	$(window).scroll(function(){  
@@ -78,11 +80,13 @@ $(function(){
 	});
 
 	/* Adiciona class active */
-	// $('.nav-item a[href^="#"]').click(function(e) {
-	// 	e.preventDefault();
-	// 	$('.nav-item a[href^="#"]').parent().removeClass('active');
-	// 	$(this).parent().addClass('active');
-	// });
+	/*
+	$('.nav-item a[href^="#"]').click(function(e) {
+		e.preventDefault();
+		$('.nav-item a[href^="#"]').parent().removeClass('active');
+		$(this).parent().addClass('active');
+	});
+	*/
 
 	/* Botão que surge no rodapé p/ levar até o topo.*/
 	$(window).scroll(function (e) {

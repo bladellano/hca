@@ -92,7 +92,7 @@
 			<div class="box-service" style="background-color: #1565C0">
 				<h3>SAC</h3>
 				<p>Não encontrou o que procurava em nosso site? Entre em contato e tire todas as suas dúvidas.</p>
-				<button class="btn btn-outline-light">FALE CONOSCO</button>
+				<a href="#contato" class="btn btn-outline-light  scroll">FALE CONOSCO</a>
 			</div>
 		</li>
 	</ul>

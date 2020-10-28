@@ -203,6 +203,9 @@ ul.list-itens-especialidades li img {
   cursor: pointer;
   box-shadow: 2px 2px 12px;
 }
+.box-service a{
+  color:#FFF;
+}
 .box-service div {
   transition: all 0.3s;
   background-color: #fff;

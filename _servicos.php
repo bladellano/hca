@@ -35,7 +35,7 @@
                             <div>
                                 <i class="fas fa-heartbeat"></i>
                             </div>
-                            <p>Exames Cardiológicos</p>
+                            <p><a href="exames_cardiologicos.php">Exames Cardiológicos</a></p>
                         </div>
                     </li>
                     <li>
@@ -85,18 +85,9 @@
                             <div>
                                 <i class="far fa-file-alt"></i>
                             </div>
-                            <p>Solicitação de prontuários</p>
+                            <p><a href="solicitacao_prontuario.php">Solicitação de prontuários</a></p>
                         </div>
                     </li>
-
-                    <!-- <li>
-                        <div class="box-service">
-                            <div>
-                                <i class="fas fa-university"></i>
-                            </div>
-                            <p>Convênios Credenciados</p>
-                        </div>
-                    </li> -->
 
                     <li>
                         <div class="box-service">

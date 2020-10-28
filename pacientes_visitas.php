@@ -34,16 +34,14 @@
                     <li>Micro saias;</li>
                     <li>Bermudas;</li>
                     <li>Trazer alimentos para pacientes;</li>
-                    <li>Acompanhante não podem se alimentar nas instalações do Hospital;</li>
-                    <li>Acompanhantes menos de 18 e maiores de 60 anos;</li>
-                    <li>UTI – Entrar apenas uma visita por dia;</li>
-                    <li>ENFERMARIA – Apenas 1 visita por dia;</li>
+                    <li>Acompanhante se alimentar nas instalações do Hospital;</li>
+                    <li>Acompanhantes menores de 18 e maiores de 60 anos;</li>
                     <li>Entrar com celular na UTI.</li>
                 </ul>
                 <h5>Horário de visitas:</h5>
                 <ul>
-                    <li>UTI: das 16h às 17h.</li>
-                    <li>ENFERMARIA: das 15h às 16h.</li>
+                    <li>UTI: das 16h às 17h - Entrar apenas uma visita por dia;</li>
+                    <li>ENFERMARIA: das 15h às 16h – Apenas 1 visita por dia.</li>
                 </ul>
                 <h5>Dicas:</h5>
                 <ul>

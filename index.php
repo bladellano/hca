@@ -14,43 +14,43 @@
 		<div class="carousel-item active">
 			<img class="d-block w-100" src="images/b-carousel (5).jpg" alt="Second slide">
 			<div class="carousel-caption d-none d-md-block text-left">
-				<h2>Lorem ipsum is simple</h2>
-				<p class="p-carousel">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and</p>
+				<!-- <h2>Lorem ipsum is simple</h2> -->
+				<!-- <p class="p-carousel">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and</p> -->
 			</div>
 		</div>
 		<div class="carousel-item">
 			<img class="d-block w-100" src="images/b-carousel (2).jpeg" alt="Second slide">
 			<div class="carousel-caption d-none d-md-block text-right">
-				<h2>Lorem ipsum is simple</h2>
-				<p class="p-carousel float-right">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and</p>
+				<!-- <h2>Lorem ipsum is simple</h2> -->
+				<!-- <p class="p-carousel float-right">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and</p> -->
 			</div>
 		</div>
 		<div class="carousel-item">
 			<img class="d-block w-100" src="images/b-carousel (1).jpeg" alt="Second slide">
 			<div class="carousel-caption d-none d-md-block text-right">
-				<h2>Lorem ipsum is simple</h2>
-				<p class="p-carousel float-right">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and</p>
+				<!-- <h2>Lorem ipsum is simple</h2> -->
+				<!-- <p class="p-carousel float-right">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and</p> -->
 			</div>
 		</div>
 		<div class="carousel-item">
-			<img class="d-block w-100" src="images/b-carousel (3).jpeg" alt="Second slide">
+			<img class="d-block w-100" src="images/banner-hemodinamica.jpeg" alt="Second slide">
 			<div class="carousel-caption d-none d-md-block text-left">
-				<h2>Lorem ipsum is simple</h2>
-				<p class="p-carousel">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and</p>
+				<!-- <h2>Lorem ipsum is simple</h2> -->
+				<!-- <p class="p-carousel">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and</p> -->
 			</div>
 		</div>
 		<div class="carousel-item">
-			<img class="d-block w-100" src="images/b-carousel (4).jpeg" alt="Second slide">
+			<img class="d-block w-100" src="images/banner-jardim-vertical.jpg" alt="Second slide">
 			<div class="carousel-caption d-none d-md-block text-center">
-				<h2>Lorem ipsum is simple</h2>
-				<p class="">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and</p>
+				<!-- <h2>Lorem ipsum is simple</h2> -->
+				<!-- <p class="">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and</p> -->
 			</div>
 		</div>
 		<div class="carousel-item">
-			<img class="d-block w-100" src="images/b-carousel (6).jpg" alt="Second slide">
+			<img class="d-block w-100" src="images/tomografia.jpg" alt="Second slide">
 			<div class="carousel-caption d-none d-md-block text-right">
-				<h2>Lorem ipsum is simple</h2>
-				<p class="p-carousel float-right">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and</p>
+				<!-- <h2>Lorem ipsum is simple</h2> -->
+				<!-- <p class="p-carousel float-right">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and</p> -->
 			</div>
 		</div>
 
@@ -113,11 +113,10 @@
 				<img src="images/medicos.png" class="img-fluid" alt="SOBRE NOS">
 			</div>
 			<div class="col-12 col-lg-4">
-				<p>A construção do Hospital de Caridade da Irmandade da Santa Casa de Misericórdia de Curitiba teve início em 1866, bem antes de sua inauguração. E, embora na época fosse considerado um grande hospital, tinha apenas 160 leitos.</p>
-				<p>Em 1880, o local foi aberto ao público oficialmente como o primeiro hospital da capital paranaense. Magistralmente, consagrado pelo então imperador Dom Pedro II. Nessa época, o Brasil também vivia o começo de muitas mudanças, como o fim da escravidão e a modernização das cidades.</p>
-
+				<p>Fundado em Janeiro do ano de 2000. Com capacidade para 500 Internamentos mês em Múltiplas especialidades e Inúmeros atendimentos Ambulatoriais. O HCA é hoje seguramente o maior serviço de Assistência Médica ao SUS do Município de Ananindeua.</p>
+				<p>O Hospital  está  preparado  para atender diversas especialidades médicas, e contam com Centro-cirúrgicos, Unidades de Terapia Intensiva, Leitos Particulares e de Enfermaria, Usina de Oxigênio e um Centro de Cardiologia Completo.  Investimentos maiores estão por vir, com a ampliação de sua Estrutura Física e a Ampliação da sua Cartela de Serviços.</p>
 				<div class="text-center">
-					<button class="btn btn-primary btn-sm">Saiba mais</button>
+					<!-- <button class="btn btn-primary btn-sm">Saiba mais</button> -->
 				</div>
 			</div>
 		</div>
@@ -136,7 +135,7 @@
 		</div>
 		<div class="row justify-content-md-center">
 
-			<div class="col-md-6">
+			<div class="col-md-12">
 				<div class="row">
 					<div class="col-md-6 col-6">
 						<a href="images/futuras1.jpeg" data-lightbox="image" data-title="Futuras instalações..."><img class="img-fluid mb-2" src="images/futuras1.jpeg" alt="IMAGE"></a>
@@ -158,10 +157,10 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-6">
+			<!-- <div class="col-md-6">
 				<p>Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Delectus, vel sequi quae maiores quaerat? Veritatis corporis tempora sint, ipsam labore accusamus, reprehenderit ducimus, quam incidunt ullam cupiditate voluptas ex perspiciatis! Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Delectus, vel sequi quae maiores quaerat? Veritatis corporis tempora sint, ipsam labore accusamus, reprehenderit ducimus, quam incidunt ullam cupiditate voluptas ex perspiciatis!</p>
 				<p>Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Delectus, vel sequi quae maiores quaerat? Veritatis corporis tempora sint, ipsam labore accusamus, reprehenderit ducimus, quam incidunt ullam cupiditate voluptas ex perspiciatis! Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Delectus, vel sequi quae maiores quaerat? Veritatis corporis tempora sint, ipsam labore accusamus, reprehenderit ducimus, quam incidunt ullam cupiditate voluptas ex perspiciatis!</p>
-			</div>
+			</div> -->
 
 		</div>
 	</div>
@@ -269,7 +268,8 @@
 </section>
 
 <!-- ESPECIALIDADES -->
-<?php //include("_especialidades.php"); ?>
+<?php //include("_especialidades.php"); 
+?>
 
 <!-- CONVENIOS -->
 <section id="convenios">

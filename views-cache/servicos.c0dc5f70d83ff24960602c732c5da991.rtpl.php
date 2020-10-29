@@ -1,0 +1,115 @@
+<?php if(!class_exists('Rain\Tpl')){exit;}?><section id="servicos">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h2>SERVIÇOS</h2>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-md-center">
+            <div class="col col-md-10">
+                <ul class="list-services">
+
+                    <li>
+                        <div class="box-service">
+                            <div>
+                                <i class="fas fa-user-md"></i>
+                            </div>
+                            <p><a href="/cirurgia-laparoscopica">Cirurgia Laparoscópica</a></p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="box-service">
+                            <div>
+                                <i class="fas fa-microscope"></i>
+                            </div>
+                            <p> <a href="/endoscopia">Endoscopia</a></p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="box-service">
+                            <div>
+                                <i class="fas fa-heartbeat"></i>
+                            </div>
+                            <p><a href="/exames-cardiologicos">Exames Cardiológicos</a></p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="box-service">
+                            <div>
+                                <i class="fas fa-diagnoses"></i>
+                            </div>
+                            <p><a href="/fisioterapia">Fisioterapia</a></p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="box-service">
+                            <div>
+                                <i class="fas fa-bong"></i>
+                            </div>
+                            <p><a href="/laboratorio-de-analises-clinicas">Laboratório de Análises Clínicas</a></p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="box-service">
+                            <div>
+                                <i class="fas fa-x-ray"></i>
+                            </div>
+                            <p><a href="/raio-x">Raio X</a></p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="box-service">
+                            <div>
+                                <i class="fas fa-head-side-virus"></i>
+                            </div>
+                            <p><a href="tomografia-computadorizada">Tomografia Computadorizada</a></p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="box-service">
+                            <div>
+                                <i class="fas fa-weight"></i>
+                            </div>
+                            <p><a href="/ultrassonografia">Ultrassonografia</a></p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="box-service">
+                            <div>
+                                <i class="far fa-file-alt"></i>
+                            </div>
+                            <p><a href="/solicitacao-de-prontuario">Solicitação de prontuários</a></p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="box-service">
+                            <div>
+                                <i class="fas fa-procedures"></i>
+                            </div>
+                            <p> <a href="/internamento">Internamento</a></p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="box-service">
+                            <div>
+                                <i class="fas fa-info"></i>
+                            </div>
+                            <p><a href="/informacoes-gerais">Informações Gerais</a></p>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+
+    </div> <!-- ./container -->
+</section>

@@ -1,0 +1,504 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+
+:root {
+  --primary-site: #0071b5;
+  --second-site: #013243;
+  --third-site: #90caf9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+#conteudo h5 {
+  color: var(--primary-site);
+}
+.imagem-topo {
+  background-image: url(../images/bg-pag-avulsa.jpg);
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.imagem-topo h3 {
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+.p-carousel {
+  width: 450px;
+  font-size: 20px;
+}
+/* Hover Dropdown Navbar */
+.navbar-nav li:hover .dropdown-menu {
+  display: block;
+  background-color: var(--primary-site);
+  border-radius: 0;
+  margin: -9px 0 0;
+}
+.navbar-nav li:hover .dropdown-menu .dropdown-item {
+  color: #fff;
+}
+.dropdown-item:focus,
+.dropdown-item:hover {
+  background: none;
+}
+/*Color tooltip*/
+.tooltip-inner {
+  background-color: var(--second-site) !important;
+  /*!important is not necessary if you place custom.css at the end of your css calls. For the purpose of this demo, it seems to be required in SO snippet*/
+  color: #fff;
+}
+
+.tooltip.top .tooltip-arrow {
+  border-top-color: var(--second-site);
+}
+
+.tooltip.right .tooltip-arrow {
+  border-right-color: var(--second-site);
+}
+
+.tooltip.bottom .tooltip-arrow {
+  border-bottom-color: var(--second-site);
+}
+
+.tooltip.left .tooltip-arrow {
+  border-left-color: var(--second-site);
+}
+/*Section padrão*/
+section[id] {
+  padding: 20px 0px;
+}
+section .justify-content-md-center p {
+  color: var(--second-site);
+  text-align: justify;
+  line-height: 27px;
+  font-size: 14px;
+}
+
+.section-title-pagina-avulsa {
+  padding-bottom: 15px;
+}
+.section-title-pagina-avulsa h2 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 22px;
+  color: var(--primary-site);
+}
+.section-title-pagina-avulsa hr {
+  border: 1px solid var(--third-site);
+  margin: 0 auto;
+}
+
+.section-title {
+  padding-bottom: 15px;
+}
+.section-title h2 {
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 28px;
+  letter-spacing: -1px;
+  color: var(--primary-site);
+}
+.section-title hr {
+  border: 2px solid var(--third-site);
+  width: 150px;
+  margin: 0 auto;
+}
+/*Itens de especialidades*/
+ul.list-itens-especialidades {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+  width: 100%;
+}
+ul.list-itens-especialidades li {
+  flex: 0 1 170px;
+  border: 1px solid #ccc;
+  margin: 4px;
+  text-align: center;
+  padding: 0px 0;
+  background-color: #fff;
+}
+ul.list-itens-especialidades li p {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 10px;
+}
+ul.list-itens-especialidades li img {
+  margin-top: 40px;
+}
+
+/* CONVENIOS */
+#convenios {
+  background-color: var(--primary-site);
+}
+#convenios .img-convenio {
+  height: 130px;
+  margin: 0 30px;
+}
+#convenios .section-title h2,
+#convenios .justify-content-md-center p,
+#convenios .justify-content-md-center h3 {
+  color: #fff;
+}
+/* MATERNIDADE */
+#maternidade {
+  background-color: var(--primary-site);
+}
+#maternidade .section-title h2,
+#maternidade .justify-content-md-center p,
+#maternidade .justify-content-md-center h3 {
+  color: #fff;
+}
+/* ESPECIALIDADES */
+#especialidades {
+  background-color: #eee;
+}
+
+/* VIDEO INSTITUCIONAL */
+#futuras-instalacoes {
+  background-color: var(--primary-site);
+}
+#futuras-instalacoes .section-title h2,
+#futuras-instalacoes .justify-content-md-center p,
+#futuras-instalacoes .justify-content-md-center h3 {
+  color: #fff;
+}
+#futuras-instalcoes .justify-content-md-center h3 {
+  font-weight: 300;
+}
+/*BOX SERVICES*/
+.box-service {
+  padding: 10px 0;
+}
+.box-service h4 {
+  font-size: 38px;
+  color: #FFF;
+  letter-spacing: -1px;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+.box-service div:hover {
+  background-color: var(--third-site);
+  cursor: pointer;
+  box-shadow: 2px 2px 12px;
+}
+.box-service a {
+  color: #fff;
+}
+.box-service div {
+  transition: all 0.3s;
+  background-color: #fff;
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+  padding-top: 12%;
+  border-radius: 50%;
+  position: relative;
+}
+.box-service div i {
+  position: absolute;
+  color: var(--second-site);
+  transform: translate(-50%, -22%);
+  font-size: 28px;
+}
+.box-service p {
+  text-align: center !important;
+  color: #fff !important;
+}
+#servicos {
+  background-image: url(../images/bg-servico-itens.jpg);
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+#servicos .section-title h2 {
+  color: #fff;
+}
+#servicos ul.list-services {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+#servicos ul.list-services li {
+  flex: 1 1 150px;
+}
+/*SLICK INDICATORS*/
+.slick-prev:before,
+.slick-next:before {
+  color: #ccc;
+  opacity: 0.9;
+}
+
+/*NOTICIAS*/
+.box-blog {
+  display: flex;
+  width: 320px;
+  margin: 2px auto;
+}
+.box-blog .date-post {
+  width: 10%;
+  text-align: center;
+  padding: 0px 2px;
+}
+.box-blog .date-post span:first-child {
+  color: #888;
+}
+.box-blog .date-post span:first-child + hr {
+  border-color: #6666;
+  margin: 4px 0;
+}
+.box-blog .date-post span:nth-child(3) {
+  color: #000;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.box-blog .content-post {
+  width: 90%;
+  padding: 0px 4px;
+}
+.box-blog .content-post p.title {
+  color: #000;
+}
+.box-blog .content-post p.content {
+  color: #777;
+  font-size: 14px;
+  text-align: justify;
+  line-height: 20px;
+}
+.box-blog .content-post p.category {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: cornflowerblue;
+}
+.box-blog .content-post p {
+  margin-bottom: 2px;
+}
+/*List itens serviços rápidos*/
+.list-fast-service {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+}
+.list-fast-service li {
+  flex: 1 1 150px;
+  width: 100%;
+  height: 320px;
+}
+.list-fast-service li .box-service {
+  height: 100%;
+  text-align: center;
+  padding-top: 22%;
+}
+.list-fast-service li .box-service h3 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  font-family: "Montserrat";
+}
+.list-fast-service li .box-service p {
+  color: #fff;
+  height: 60px;
+  padding: 0 10px;
+}
+/**/
+.active a {
+  color: var(--second-site) !important;
+}
+.active {
+  background-color: var(--third-site);
+  border-radius: 6px;
+}
+/**/
+.navbar {
+  background-color: var(--primary-site);
+  height: 86px;
+}
+.navbar .nav-item .nav-link {
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: #fff;
+}
+.navbar .nav-item .dropdown-item {
+  text-transform: uppercase;
+}
+/**/
+.box-icons-top {
+  display: flex;
+  width: 260px;
+}
+.box-icons-top i {
+  font-size: 28px;
+  color: var(--third-site);
+}
+
+.box-icons-top p {
+  color: var(--primary-site);
+  font-size: 11px;
+  text-align: left;
+  margin-bottom: 0;
+}
+.box-icons-top p:nth-child(1) {
+  font-size: 18px;
+  font-weight: bold;
+}
+.box-icons-top p:nth-child(2) {
+  color: var(--second-site);
+  font-size: 14px;
+}
+.box-icons-top .icon {
+  width: 18%;
+}
+.box-icons-top .text {
+  width: 82%;
+}
+/**/
+
+ul.list-box-icons {
+  display: flex;
+  list-style: none;
+  max-width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/**/
+.list-socials {
+  list-style: none;
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.list-socials li {
+  flex: 1 1 100px;
+}
+.list-socials i {
+  color: var(--primary-site);
+  font-size: 26px;
+  margin: 0 4px;
+  transition: all 0.3s;
+}
+.list-socials i:hover {
+  color: var(--third-site);
+  cursor: pointer;
+}
+/**/
+
+footer {
+  margin-top: -8px;
+  background-color: var(--primary-site);
+  padding-top: 20px;
+}
+footer h5 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 22px;
+  font-family: "Montserrat";
+}
+footer address {
+  color: #fff;
+  /*font-size: 14px;*/
+  line-height: 30px;
+}
+footer p {
+  color: #fff;
+}
+footer .container-fluid {
+  background-color: var(--second-site);
+  color: #fff8;
+  border-top: 1px solid var(--third-site);
+}
+footer .container-fluid p {
+  margin-bottom: 0;
+  margin: 18px 0;
+  font-size: 14px;
+}
+footer img {
+  margin-bottom: 10px;
+}
+footer ul {
+  list-style: none;
+  display: flex;
+}
+footer ul li a:hover {
+  color: var(--primary-site);
+  background-color: var(--third-site);
+}
+footer ul li a {
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  margin-right: 10px;
+  transition: all 0.3s;
+  font-size: 20px;
+  padding: 5px 8px;
+}
+
+footer form input[type="text"],
+textarea {
+  background: transparent !important;
+  border: 1px solid #fff;
+  color: #fff !important;
+}
+footer form input[type="text"]:focus,
+textarea:focus {
+  background: transparent;
+  color: #fff !important;
+}
+footer form input[type="text"]::placeholder,
+textarea::placeholder {
+  color: #fff8 !important;
+}
+
+/*===================*/
+/*   DEVICES MOBILE  */
+/*===================*/
+
+@media (max-width: 768px) {
+  .list-fast-service li .box-service p {
+    height: 96px;
+    font-size: 13px;
+  }
+  .list-fast-service li .box-service {
+    padding-top: 10px;
+  }
+  .list-fast-service li {
+    height: auto;
+  }
+  #navbar_top {
+    height: auto !important;
+    opacity: 0.9;
+  }
+  .list-fast-service li .box-service h3 {
+    font-size: 14px;
+  }
+  .btn:not(:disabled):not(.disabled) {
+    font-size: 12px;
+  }
+  #servicos ul.list-services li {
+    flex: 1 1 120px;
+  }
+  .box-service div {
+    padding-top: 18%;
+  }
+}

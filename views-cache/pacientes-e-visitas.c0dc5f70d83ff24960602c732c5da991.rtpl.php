@@ -1,5 +1,4 @@
-<?php include("_header.php"); ?>
-
+<?php if(!class_exists('Rain\Tpl')){exit;}?>
 <div class="imagem-topo">
     <div class="container">
         <h3>Acompanhantes, Visitantes e Familiares</h3>
@@ -52,5 +51,3 @@
         </div>
     </div>
 </section>
-
-<?php include("_footer.php"); ?>

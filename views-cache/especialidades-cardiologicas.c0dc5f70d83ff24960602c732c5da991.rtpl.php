@@ -1,5 +1,4 @@
-<?php include("_header.php"); ?>
-
+<?php if(!class_exists('Rain\Tpl')){exit;}?>
 <div class="imagem-topo">
     <div class="container">
         <h3>ESPECIALIDADE CARDIOLOGICA</h3>
@@ -24,11 +23,11 @@
         <div class="row">
             <ul class="list-itens-especialidades">
                 <li data-toggle="tooltip" data-html="true" title="<em>Atendimento</em> <b>Segunda - Sexta: 08:00 às 18:00</b>">
-                    <img src="images/heart-rate.png" alt="ICON">
+                    <img src="/res/site/images/heart-rate.png" alt="ICON">
                     <p>Angiologia Coronária</p>
                 </li>
                 <li data-toggle="tooltip" data-html="true" title="<em>Atendimento</em> <b>Segunda - Sexta: 08:00 às 18:00</b>">
-                    <img src="images/blood-type.png" alt="ICON">
+                    <img src="/res/site/images/blood-type.png" alt="ICON">
                     <p>Cateterismo Cardiológico</p>
                 </li>
 
@@ -36,5 +35,3 @@
         </div>
     </div>
 </section>
-
-<?php include("_footer.php"); ?>

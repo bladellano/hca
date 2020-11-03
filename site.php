@@ -11,17 +11,37 @@ $app->notFound(function () {
     $page->setTpl("not-found");
 });
 
+/* Notícias */
+$app->get('/post/:slug', function ($slug) {
+
+    $post = new Post();
+    $post->getWithSlug($slug);
+    $result = $post->getValues();
+
+    $allPosts = Post::lisAll();
+
+    $page = new Page();
+    $page->setTpl(
+        "post",
+        [
+            'post' => $result,
+            'posts' => $allPosts
+        ]
+    );
+});
+
 /* Página principal */
 $app->get('/', function () {
-    
+
     $posts = (new Post())::lisAll();
     $page = new Page();
 
     foreach ($posts as &$post) {
-        $post['m'] = (new DateTime($post['created_at']))->format("m");
+        $post['m'] = (new DateTime($post['created_at']))->format("d");
         $post['d'] = strftime('%b', strtotime($post['created_at']));
         $post['category'] = Post::getCategory($post['id_articles_categories']);
     }
+
     $page->setTpl("index", [
         'posts' => $posts
     ]);

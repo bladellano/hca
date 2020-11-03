@@ -199,16 +199,16 @@
 
 						<div class="box-blog">
 							<div class="date-post">
-								<span><?php echo htmlspecialchars( $value1["m"], ENT_COMPAT, 'UTF-8', FALSE ); ?></span>
+								<span><?php echo $value1["m"]; ?></span>
 								<hr>
-								<span><?php echo htmlspecialchars( $value1["d"], ENT_COMPAT, 'UTF-8', FALSE ); ?></span>
+								<span><?php echo $value1["d"]; ?></span>
 							</div>
 							<div class="content-post">
-								<p class="category"><?php echo htmlspecialchars( $value1["category"], ENT_COMPAT, 'UTF-8', FALSE ); ?></p>
-								<img src="https://via.placeholder.com/280x100?text=IMAGEM PARA NOTICIA">
+								<p class="category"><?php echo $value1["category"]; ?></p>
+								<img src='<?php echo url($value1["image_thumb"]); ?>'>
 								<p class="title"> <?php echo resume($value1["title"],80); ?> </p>
 								<p class="content"> <?php echo resume($value1["resume"],100); ?> </p>
-								<a href="/post/<?php echo htmlspecialchars( $value1["slug"], ENT_COMPAT, 'UTF-8', FALSE ); ?>" class="btn btn-success btn-sm" tabindex="0">Leia
+								<a href="/post/<?php echo $value1["slug"]; ?>" class="btn btn-success btn-sm" tabindex="0">Leia
 									mais...</a>
 							</div>
 						</div>

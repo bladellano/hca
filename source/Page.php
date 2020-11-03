@@ -21,7 +21,8 @@ class Page
         $config = array(
             "tpl_dir" => self::reverse_strrchr($_SERVER['SCRIPT_FILENAME'],'/') . $tpl_dir,
             "cache_dir" => self::reverse_strrchr($_SERVER['SCRIPT_FILENAME'],'/') . "/views-cache/",
-            "debug" => false         
+            "debug" => false,
+            "auto_escape"=>false     
         );
 
         Tpl::configure($config);

@@ -19,9 +19,9 @@ $(function () {
 	var scrollLink = $('.scroll');
 
 	scrollLink.click(function (e) {
-		
+
 		if (!$(this.hash).length)/* Retorna ao index se não encontrar ids */
-			return location.href = './' + this.hash;
+			return location.href = location.href.match(/^http.*?.\w\//m)[0];
 
 		e.preventDefault();
 		$('body,html').animate({//this.hash - pega o valor do atributo id

@@ -1,7 +1,7 @@
 <?php
 // 
 define("URL_BASE", "http://hca.local.com/");
-define("URL_BASE_ADMIN", "http://admin_hca.local.com/");
+define("URL_BASE_ADMIN", "http://gerenciador-hca.local.com/");
 
 define("YEAR", date('Y'));
 

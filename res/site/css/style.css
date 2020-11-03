@@ -17,6 +17,27 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+/* Custom Page Post */
+
+.post h3 {
+  font-weight: bold;
+  font-size: 26px;
+  letter-spacing: -1px;
+}
+
+.post img {
+  float: left;
+  max-width: 36%;
+  padding-right: 8px;
+  padding-bottom: 4px;
+}
+
+.post p {
+  text-align: justify;
+}
+.post {
+  text-align: justify;
+}
 
 #conteudo h5 {
   color: var(--primary-site);
@@ -188,7 +209,7 @@ ul.list-itens-especialidades li img {
 }
 .box-service h4 {
   font-size: 38px;
-  color: #FFF;
+  color: #fff;
   letter-spacing: -1px;
   font-family: "Montserrat";
   font-weight: bold;
@@ -289,6 +310,11 @@ ul.list-itens-especialidades li img {
 }
 .box-blog .content-post p {
   margin-bottom: 2px;
+}
+.box-blog .content-post img {
+  object-fit: cover;
+  width: 100%;
+  height: 100px;
 }
 /*List itens serviços rápidos*/
 .list-fast-service {

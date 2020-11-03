@@ -205,7 +205,7 @@
 							</div>
 							<div class="content-post">
 								<p class="category">{$value.category}</p>
-								<img src="https://via.placeholder.com/280x100?text=IMAGEM PARA NOTICIA">
+								<img src='{function="url($value.image_thumb)"}'>
 								<p class="title"> {function="resume($value.title,80)"} </p>
 								<p class="content"> {function="resume($value.resume,100)"} </p>
 								<a href="/post/{$value.slug}" class="btn btn-success btn-sm" tabindex="0">Leia

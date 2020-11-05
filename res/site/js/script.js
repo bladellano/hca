@@ -1,5 +1,44 @@
 $(function () {
 
+	/* Formulário de envio de tentativa de contato */
+	$('#formContact').submit(function (e) {
+
+		e.preventDefault();
+
+		if ($('#name').val() == "" || $('#message').val() == "")
+			return swal("Alerta", "Preencha os campos obrigatórios", "error");
+
+		const data = $(this).serializeArray();
+
+		let val_btn = $(this).find('input[type="submit"]').val();
+
+		$.ajax({
+			url: '/email-sent',
+			type: 'post',
+			dataType: 'json',
+			data: data,
+			beforeSend: () => {
+				$(this).find(':input,select,textarea').prop('disabled', true);
+				$(this).find('input[type="submit"]').val('Enviando..');
+			},
+			success: (r) => {
+
+				if (r.success == true) {
+					$(this)[0].reset();
+					return swal("Mensagem", r.msg, "success");
+				} else {
+					return swal("Falha!", r.msg, "error");
+				}
+			}
+		})
+			.always(() => {
+				$(this).find(':input,select,textarea').prop('disabled', false);
+				$(this).find('input[type="submit"]').val(val_btn);
+			});
+
+	});
+
+
 	$(function () {
 		$('[data-toggle="tooltip"]').tooltip()
 	})

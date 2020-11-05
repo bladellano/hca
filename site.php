@@ -1,5 +1,6 @@
 <?php
 
+use Source\Model\Banner;
 use Source\Model\Post;
 use \Source\Page;
 use \Source\Support\Mailer;
@@ -35,7 +36,8 @@ $app->get('/', function () {
 
     $posts = (new Post())::lisAll();
     $page = new Page();
-
+    $banners = (new Banner())::lisAll();
+    
     foreach ($posts as &$post) {
         $post['m'] = (new DateTime($post['created_at']))->format("d");
         $post['d'] = strftime('%b', strtotime($post['created_at']));
@@ -43,7 +45,8 @@ $app->get('/', function () {
     }
 
     $page->setTpl("index", [
-        'posts' => $posts
+        'posts' => $posts,
+        'banners' => $banners
     ]);
 });
 
@@ -70,4 +73,21 @@ $app->get('/solicitacao-de-prontuario', function () {
 $app->get('/pacientes-e-visitas', function () {
     $page = new Page();
     $page->setTpl("pacientes-e-visitas");
+});
+
+
+/* Disparo de e-mail */
+$app->post('/email-sent', function () {
+
+    $mailer = new Mailer(
+        $_POST["email"],
+        $_POST["name"],
+        "Formulário de Contato do Site", //Assunto
+        "email-sent", //Template
+        $_POST
+    );
+
+    if ($mailer->send())
+        die(json_encode(['success' => true, 'msg' => 'E-mail enviado com sucesso!']));
+    die(json_encode(['success' => false, 'msg' => 'Problemas ao enviar o e-mail!']));
 });

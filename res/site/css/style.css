@@ -17,6 +17,14 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+
+/* Custom Banner */
+
+.img-object-fit-banner {
+  object-fit: cover;
+  width: 100%;
+  height: 600px;
+}
 /* Custom Page Post */
 
 .post h3 {
@@ -481,17 +489,20 @@ footer ul li a {
 }
 
 footer form input[type="text"],
+footer form input[type="email"],
 textarea {
   background: transparent !important;
   border: 1px solid #fff;
   color: #fff !important;
 }
 footer form input[type="text"]:focus,
+footer form input[type="email"]:focus,
 textarea:focus {
   background: transparent;
   color: #fff !important;
 }
 footer form input[type="text"]::placeholder,
+footer form input[type="email"]::placeholder,
 textarea::placeholder {
   color: #fff8 !important;
 }

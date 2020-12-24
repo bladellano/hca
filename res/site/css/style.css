@@ -340,6 +340,13 @@ ul.list-itens-especialidades li img {
   text-align: center;
   padding-top: 22%;
 }
+.list-fast-service li .box-service h2 {
+  color: #fff;
+  font-size: 38px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  font-family: "Montserrat";
+}
 .list-fast-service li .box-service h3 {
   color: #fff;
   font-size: 22px;

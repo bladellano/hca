@@ -50,6 +50,11 @@ $app->get('/', function () {
     ]);
 });
 
+$app->get('/o-que-e-cateterismo', function () {
+    $page = new Page();
+    $page->setTpl("o-que-e-cateterismo");
+});
+
 $app->get('/especialidades-cardiologicas', function () {
     $page = new Page();
     $page->setTpl("especialidades-cardiologicas");
